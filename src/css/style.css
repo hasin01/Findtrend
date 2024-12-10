@@ -1,0 +1,17 @@
+@import "./normalize.css";
+@import "./font.css";
+
+
+:root {
+    --primary: #A8FF35;
+    --green:#87D322;
+    --button-hover:#8CC83A ;
+    --Black:#0000;
+    --Black-2:#2B2B2B;
+    --Grey-1:#8B8B8B;
+    --Grey-2:#ADADAD;
+    --Grey-3:#F5F5F5;
+    --Grey-4:#F1F1F1;
+    --off-white:#FFFFFF;
+  }
+  
