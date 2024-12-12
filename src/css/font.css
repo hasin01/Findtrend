@@ -1,46 +1,62 @@
 @font-face {
-  font-family: "Effra-Bold";
+  font-family: "Effra";
+  font-style: normal;
+  font-weight: 700;
   src: url("/src/font/Effra-Bold.woff2") format("woff2")
   
 }
 
 @font-face {
-    font-family: "Effra-Heavy";
+    font-family: "Effra";
+    font-style: normal;
+    font-weight: 900;
     src: url("/src/font/Effra-Heavy.woff2") format("woff2")
     
   }
   
   @font-face {
-    font-family: "Effra-Medium";
+    font-family: "Effra";
+    font-style: normal;
+    font-weight: 500;
     src: url("/src/font/Effra-Medium.woff2") format("woff2")
     
   }
   
   @font-face {
-    font-family: "Effra-Regular";
+    font-family: "Effra";
+    font-style: normal;
+    font-weight: 400;
     src: url("/src/font/Effra-Regular.woff2") format("woff2")
     
   }
   
   @font-face {
     font-family: "GoodDog";
+    font-style: normal;
+    font-weight: 400;
     src: url("/src/font/GoodDog.ttf") format("ttf")
     
   }
   @font-face {
-    font-family: "Inter-Bold";
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
     src: url("/src/font/Inter-Bold.ttf") format("ttf")
     
   }
   
   @font-face {
-    font-family: "Inter-Medium";
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
     src: url("/src/font/Inter-Medium.ttf") format("ttf")
     
   }
   
   @font-face {
-    font-family: "Roboto-Regular";
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
     src: url("/src/font/Roboto-Regular.ttf") format("ttf")
     
   }

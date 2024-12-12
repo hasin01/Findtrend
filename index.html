@@ -1,15 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="src/css/style.css">
-  <title>Document</title>
-</head>
-<body>
   <head>
-    <img srcset="/src/img/airtable-1x.png 1x, /src/img/airtable-2x.png 2x" src="/src/img/airtable-1x.png" alt="Описание изображения">
-
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/css/style.css" />
+    <title>Document</title>
   </head>
-</body>
+  <body>
+    <head>
+      <div class="container header-wraper">
+        <div class="logo">
+          <img
+            srcset="/src/img/logo-1x.png 1x, /src/img/logo-2x.png 2x"
+            src="/src/img/airtable-1x.png"
+            alt="Описание изображения"
+          />
+          <a class="logo-link" href="">Findtrend</a>
+        </div>
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-list-item"><a href="">About</a></li>
+            <li class="nav-list-item"><a href="">How it work</a></li>
+            <li class="nav-list-item"><a href="">Pricing</a></li>
+            <li class="nav-list-item"><a href="">Solution</a></li>
+            <li class="nav-list-item"><a href="">Features</a></li>
+          </ul>
+        </nav>
+        <div class="auth-btn">
+          <button class="login-btn">Login</button>
+          <button class="register-btn">Register</button>
+        </div>
+        <button class="mob-menu-open-btn">
+          <img src="/src/img/burger.svg" alt="" />
+        </button>
+
+        <div class="mob-menu is-hidden">
+          <div class="mob-menu-warper">
+            <div class="mob-menu-close">
+              <img
+                srcset="/src/img/logo-1x.png 1x, /src/img/logo-2x.png 2x"
+                src="/src/img/airtable-1x.png"
+                alt="Описание изображения"
+              />
+              <button class="mob-menu-close-btn">
+                <img src="/src/img/mob-close.svg" alt="" />
+              </button>
+            </div>
+            <nav class="mob-menu-nav">
+              <ul class="mob-menu-list">
+                <li><a class="mob-menu-list-item" href="">About</a></li>
+                <li><a class="mob-menu-list-item" href="">How it work</a></li>
+                <li><a class="mob-menu-list-item" href="">Pricing</a></li>
+                <li><a class="mob-menu-list-item" href="">Solution</a></li>
+                <li><a class="mob-menu-list-item" href="">Features</a></li>
+                <li><button class="mob-menu-login-btn">Login</button></li>
+                <li><button class="mob-menu-register-btn">Register</button></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </head>
+    <main>
+      <section class="Find-the-trends">
+        <div class="container Find-the-trendse-container">
+          <h1 class="Find-the-trends-titles">
+            Minimize your tabs. Find the trends!
+          </h1>
+          <p class="Find-the-trends-description">
+            Don’t let your computer memories consumes all of those browser tabs.
+            Findtrend let you gathers all of your favorite website into one
+            place.
+          </p>
+          <button class="Find-the-trends-btn">Get Started 🔥</button>
+
+          <div class="catalog-list">
+            <div class="Find-the-trends-item Find-the-trends-item-twitter">
+              <img
+                class="Find-the-trends-item-img-logo"
+                srcset="/src/img/twitter-1x.png 1x, /src/img/twitter-2x.png 2x"
+                src="/src/img/twitter-1x.png"
+                alt=""
+                width="27px"
+              />
+              <p class="Find-the-trends-item-title">Cryptopunk - Search</p>
+              <img
+                class="Find-the-trends-item-img"
+                src="/src/img/mob-close.svg"
+                alt=""
+                width="20px"
+              />
+            </div>
+            <div class="Find-the-trends-item Find-the-trends-item-pinterest">
+              <img
+                class="Find-the-trends-item-img-logo"
+                srcset="
+                  /src/img/pinterest-1x.png 1x,
+                  /src/img/pinterest-2x.png 2x
+                "
+                src="/src/img/pinterest-1x.png"
+                alt=""
+                width="27px"
+              />
+              <p class="Find-the-trends-item-title">Popular Design - Search</p>
+              <img
+                class="Find-the-trends-item-img"
+                src="/src/img/mob-close.svg"
+                alt=""
+                width="20px"
+              />
+            </div>
+            <div class="Find-the-trends-item Find-the-trends-item-facebook">
+              <img
+                class="Find-the-trends-item-img-logo"
+                srcset="
+                  /src/img/facebook-1x.png 1x,
+                  /src/img/facebook-2x.png 2x
+                "
+                src="/src/img/facebook-1x.png"
+                alt=""
+                width="27px"
+              />
+              <p class="Find-the-trends-item-title">Product Design - Search</p>
+              <img
+                class="Find-the-trends-item-img"
+                src="/src/img/mob-close.svg"
+                alt=""
+                width="20px"
+              />
+            </div>
+            <div class="Find-the-trends-item Find-the-trends-item-dribbble">
+              <img
+                class="Find-the-trends-item-img-logo"
+                srcset="
+                  /src/img/dribbble-1x.png 1x,
+                  /src/img/dribbble-2x.png 2x
+                "
+                src="/src/img/dribbble-1x.png"
+                alt=""
+                width="27px"
+              />
+              <p class="Find-the-trends-item-title">Elon Musk - Search</p>
+              <img
+                class="Find-the-trends-item-img"
+                src="/src/img/mob-close.svg"
+                alt=""
+                width="20px"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section >
+        <div class="container Open-new-tabs">
+          <h2 class="Open-new-tabs-title">Open new tabs is sh*t </h2>
+        <div class="Open-new-tabs-wraper-card">
+          <div class="Open-new-tabs-item">
+            <img
+              class="Open-new-tabs-img-logo"
+              srcset="
+                /src/img/logo-1x.png 1x,
+                /src/img/logo-2x.png 2x
+              "
+              src="/src/img/logo-1x.png"
+              alt=""
+              width="27px"
+            />
+            <p class="Open-new-tabs-item-title">Elon Musk - Search</p>
+            <img
+              class="Open-new-tabs-item-img"
+              src="/src/img/mob-close.svg"
+              alt=""
+              width="20px"
+            />
+          </div>
+        </div>
+        <p class="Open-new-tabs-descr">A solution for your browser tabs and don’t make your device get slower over time. Get ease and faster to discover a trend with just one tab.</p>
+        </div>
+      </section>
+    </main>
+    <script type="module" src="/src/main.js"></script>
+  </body>
 </html>
