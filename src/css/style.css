@@ -12,6 +12,7 @@
   --Grey-3: #f5f5f5;
   --Grey-4: #f1f1f1;
   --off-white: #ffffff;
+  --bg-connect-to-findtrend:#FAFAFA;
   --font-family: "Effra", sans-serif;
   --second-family: "Roboto", sans-serif;
   --third-family: "Inter", sans-serif;
@@ -387,4 +388,66 @@ margin-bottom: 30px;
 .about-findtrend-item:hover {
   transform: scale(1.05); 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+}
+
+/* -------------------------connect-to-findtrend ---------------------------------------------- */
+
+
+
+.connect-to-findtrend{
+  background: var(--bg-connect-to-findtrend);
+  padding-top: 80px;
+padding-bottom: 80px;
+}
+.connect-to-findtrend-title {
+  color: var(--Black);
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 43px;
+  text-align: center;
+  margin-bottom: 50px
+}
+.connect-to-findtrend-list{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+
+}
+.connect-to-findtrend-item {
+  border-radius: 8px;
+
+  background: var(--off-white);
+  padding: 16px
+}
+
+.connect-to-findtrend-item-aktive{
+  border-radius: 8px;
+
+  background: var(--green);
+  padding: 16px
+
+}
+.tweet {
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.tweet-img{
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+
+
+}
+.tweet-btn {
+  color:var(--off-white);
+font-size: 14px;
+font-weight: 700;
+line-height: 140%;
+border-radius: 40px;
+background:var(--Black);
+padding: 12px 24px 12px 24px;
+text-align: center;
+display: block;
+margin: 0 auto;
 }
