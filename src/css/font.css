@@ -30,26 +30,26 @@
     
   }
   
-  @font-face {
-    font-family: "GoodDog";
-    font-style: normal;
-    font-weight: 400;
-    src: url("/src/font/GoodDog.ttf") format("ttf")
-    
-  }
+
   @font-face {
     font-family: "Inter";
     font-style: normal;
     font-weight: 700;
-    src: url("/src/font/Inter-Bold.ttf") format("ttf")
+    src: url("/src/font/Inter-Bold.ttf") format("truetype")
     
   }
+  @font-face {
+    font-family: "GoodDog";
+    font-weight: 700;
+    src: url("/src/font/GoodDog.ttf") format("truetype");
+}
+
   
   @font-face {
     font-family: "Inter";
     font-style: normal;
     font-weight: 500;
-    src: url("/src/font/Inter-Medium.ttf") format("ttf")
+    src: url("/src/font/Inter-Medium.ttf") format("truetype")
     
   }
   
@@ -57,7 +57,7 @@
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
-    src: url("/src/font/Roboto-Regular.ttf") format("ttf")
+    src: url("/src/font/Roboto-Regular.ttf") format("truetype")
     
   }
   
