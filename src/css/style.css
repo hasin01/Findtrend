@@ -239,8 +239,11 @@ button {
 
 /* -------------------------SECTION Open new tabs is sh*t ---------------------------------------------- */
 
-.Open-new-tabs {
+.Open-new-tabs-section{
   background-color: var(--primary);
+
+}
+.Open-new-tabs {
   padding: 80px 0 80px 0;
   display: flex;
   flex-direction: column;
@@ -337,10 +340,11 @@ button {
   transform: scaleX(-1) rotate(80deg);
 }
 
-.about-findtrend {
+.about-findtrend-section{
   background: var(--off-white);
 padding-top: 80px;
 padding-bottom: 80px;
+
 }
 
 .about-findtrend-title {
@@ -394,11 +398,15 @@ margin-bottom: 30px;
 
 
 
-.connect-to-findtrend{
+
+.connect-to-findtrend-section{
   background: var(--bg-connect-to-findtrend);
   padding-top: 80px;
 padding-bottom: 80px;
+
 }
+
+
 .connect-to-findtrend-title {
   color: var(--Black);
   font-size: 36px;
@@ -407,23 +415,29 @@ padding-bottom: 80px;
   text-align: center;
   margin-bottom: 50px
 }
-.connect-to-findtrend-list{
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 30px;
 
+.connect-to-findtrend-list{
+  margin-bottom: 32px;
+  display: flex;
+  justify-content: space-evenly;
+  overflow: hidden;
+  gap: 16px;
+  align-items: center; flex-wrap: wrap;
 }
+
+
 .connect-to-findtrend-item {
   border-radius: 8px;
-
   background: var(--off-white);
-  padding: 16px
+  padding: 16px;
+  width: 64px;
+  height: 64px;
 }
 
 .connect-to-findtrend-item-aktive{
   border-radius: 8px;
 
-  background: var(--green);
+  background: var(--primary);
   padding: 16px
 
 }
@@ -451,3 +465,191 @@ text-align: center;
 display: block;
 margin: 0 auto;
 }
+
+
+/* -------------------------connect-to-findtrend ---------------------------------------------- */
+
+
+
+.best-deal-section {
+
+  padding-top: 80px;
+padding-bottom: 80px;
+}
+
+.best-deal-title {
+  color: var(--off-white);
+font-size: 36px;
+font-weight: 900;
+line-height: 43px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 30px;
+}
+
+
+.best-deal-check {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+position: relative;
+margin-bottom: 80px;
+max-width: 300px;
+margin-left: auto;
+margin-right: auto;
+
+}
+.best-deal-check-Monthly {
+  color: var(--off-white);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  
+}
+.best-deal-check-main {
+  background-color: var(--off-white);
+  width:104px ;
+  border-radius: 99px;
+  height: 44px;
+display: flex;
+align-items: center;
+}
+
+.best-deal-check-bol {
+  width: 28px;
+  height: 28px;
+  border-radius: 99px;
+background: var(--primary);
+margin-left: 13px;
+}
+
+.best-deal-check-Yearly {
+  color: var(--Grey-1);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+
+
+}
+
+
+.best-deal-check-arrow {
+  position: absolute;
+  top: 80%;
+  left: 69%;
+}
+
+.best-deal-check-arrow-title {
+  color: rgb(255, 255, 255);
+  font-family: var(--font3);
+font-size: 12px;
+font-weight: 400;
+line-height: 12px;
+text-align: center;
+width: 50px;
+transform: rotate(6.00deg);
+}
+
+
+
+
+.best-deal-list {
+display: flex;
+flex-direction: column;
+gap: 24px;
+
+}
+.best-deal-item {
+  padding: 30px;
+  border-radius: 15.07px;
+background: var(--off-white);
+}
+
+.best-deal-item-card-titile {
+  color:var(--Black);
+font-size: 32px;
+font-weight: 400;
+line-height: 100%;
+padding-bottom: 14px;
+}
+.best-deal-item-card-subtitle {
+  color:var(--Black);
+font-size: 18px;
+font-weight: 400;
+line-height: 100%;
+margin-bottom: 32px;
+}
+.best-deal-line{
+  border: 1px solid rgb(0, 0, 0);
+  opacity: 0.2;
+  margin-bottom: 32px;
+}
+.best-deal-pise-money{
+  color:var(--Black);
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 100%;
+  margin-right: 6px;
+
+}
+.best-deal-item-card-price {
+  color:var(--Black);
+font-size: 18px;
+font-weight: 400;
+line-height: 100%;
+padding-bottom: 30px;
+}
+.best-deal-item-card-list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-bottom:170px;
+}
+.best-deal-item-card-list-item {
+  color:var(--Black);
+font-size: 18px;
+font-weight: 400;
+line-height: 100%;
+display: flex;
+align-items: center;
+}
+.best-deal-item-card-list-item::before {
+  content: "";
+display: block;
+  width: 14px; 
+  height: 9px;
+  background-image: url('/src/img/check-mark.svg');
+  background-size: cover; 
+  margin-right: 8px; 
+ 
+}
+
+
+.best-deal-button {
+  color:var(--Black);
+font-size: 18px;
+font-weight: 700;
+line-height: 140%;
+border-radius: 27.31px;
+background: var(--primary);
+width: 100%;
+padding:14px 0 14px 0 ;
+}
+.best-deal-button:hover{
+  background: var(--button-hover);
+
+}
+.best-deal-item-regular {
+  background-color: var(--primary);
+}
+.best-deal-item-regular button {
+  background-color: var(--Black);
+  color: var(--off-white);
+}
+.best-deal-item-regular button:hover{
+  background-color: var(--Black-2);
+
+}
+
+
+
