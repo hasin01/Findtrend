@@ -28,7 +28,7 @@
         </nav>
         <div class="auth-btn">
           <button class="login-btn">Login</button>
-          <button class="register-btn">Register</button>
+          <button class=" mob-menu-register-btn">Register</button>
         </div>
         <button class="mob-menu-open-btn">
           <img loading="lazy" src="/src/img/burger.svg" alt="" />
@@ -382,79 +382,78 @@
 
           <ul class="connect-to-findtrend-list">
             <li class="connect-to-findtrend-item">
-              <img loading="lazy"
+              <img class="connect-to-findtrend-item-img" loading="lazy"
                 srcset="
                   /src/img/facebook-1x.png 1x,
                   /src/img/facebook-2x.png 2x
                 "
                 src="/src/img/facebook-1x.png"
                 alt="facebook"
-                width="30px"
+            
               />
             </li>
 
             <li
               class="connect-to-findtrend-item connect-to-findtrend-item-aktive"
             >
-              <img loading="lazy"
+              <img class="connect-to-findtrend-item-img" loading="lazy"
                 srcset="/src/img/twitter-1x.png 1x, /src/img/twitter-2x.png 2x"
                 src="/src/img/twitter-1x.png"
                 alt="twitter"
-                width="30px"
+           
               />
             </li>
             <li class="connect-to-findtrend-item">
-              <img loading="lazy"
+              <img class="connect-to-findtrend-item-img" loading="lazy"
                 srcset="
                   /src/img/dribbble-1x.png 1x,
                   /src/img/dribbble-2x.png 2x
                 "
                 src="/src/img/dribbble-1x.png"
                 alt="dribbble"
-                width="30px"
+            
               />
             </li>
             <li class="connect-to-findtrend-item">
-              <img loading="lazy"
+              <img class="connect-to-findtrend-item-img" loading="lazy"
                 srcset="
                   /src/img/pinterest-1x.png 1x,
                   /src/img/pinterest-2x.png 2x
                 "
                 src="/src/img/pinterest-1x.png"
                 alt="pinterest"
-                width="30px"
+              
               />
             </li>
-            <li class="connect-to-findtrend-item">
-              <img loading="lazy"
+            <li  class="connect-to-findtrend-item">
+              <img class="connect-to-findtrend-item-img" loading="lazy"
                 srcset="/src/img/milan-1x.png 1x, /src/img/milan-2x.png 2x"
                 src="/src/img/milan-1x.png"
                 alt="milan"
-                width="30px"
+             
               />
             </li>
             <li class="connect-to-findtrend-item">
-              <img loading="lazy"
+              <img class="connect-to-findtrend-item-img" loading="lazy"
                 srcset="/src/img/reddit-1x.png 1x, /src/img/reddit-1x.png 2x"
                 src="/src/img/reddit-1x.png"
                 alt="reddit"
-                width="30px"
+             
               />
             </li>
             <li class="connect-to-findtrend-item">
-              <img loading="lazy"
+              <img class="connect-to-findtrend-item-img" loading="lazy"
                 srcset="/src/img/vk-1x.png 1x, /src/img/vk-2x.png 2x"
                 src="/src/img/vk-1x.png"
                 alt="vk"
-                width="30px"
+             
               />
             </li>
             <li class="connect-to-findtrend-item">
-              <img loading="lazy"
+              <img class="connect-to-findtrend-item-img" loading="lazy"
                 srcset="/src/img/in-1x.png 1x, /src/img/in-2x.png 2x"
                 src="/src/img/in-1x.png"
                 alt="in"
-                width="30px"
               />
             </li>
           </ul>
@@ -484,7 +483,7 @@
       </section>
 
       <section class="best-deal-section">
-        <div class="container">
+        <div class="container best-deal-section-wrapper">
           <h2 class="best-deal-title">Get your best deal</h2>
           <div class="best-deal-check">
             <p class="best-deal-check-Monthly">Monthly</p>
@@ -595,20 +594,21 @@
       </section>
 
       <footer class="footer">
-        <div class="container">
-          <a class="footer-logo-link" href="#">
-            <img loading="lazy"
-              class="footer-logo-img"
-              srcset="
-                /src/img/logo-dark-2x.png 1x,
-                /src/img/logo-dark-2x.png 2x
-              "
-              src=" /src/img/logo-dark-2x.png"
-              alt="logo"
-              width="30px"
-            />
-            <p class="footer-logo-title">Findtrend</p></a
-          >
+  
+      <div class="container     footer-wrapper" >
+        <div>  <a class="footer-logo-link" href="#">
+          <img loading="lazy"
+            class="footer-logo-img"
+            srcset="
+              /src/img/logo-dark-2x.png 1x,
+              /src/img/logo-dark-2x.png 2x
+            "
+            src=" /src/img/logo-dark-2x.png"
+            alt="logo"
+            width="30px"
+          />
+          <p class="footer-logo-title">Findtrend</p></a
+        ></div>
           <ul class="footer-link-list">
             <li class="footer-link-item"><a href="#">Privacy Policy</a></li>
             <li class="footer-link-item">
@@ -616,9 +616,12 @@
             </li>
             <li class="footer-link-item"><a href="#">Contact Us</a></li>
             <li class="footer-link-item"><a href="#">Careers</a></li>
+            <li class="footer-link-item"><a href="#">Contact Us</a></li>
+
           </ul>
         </div>
       </footer>
+
     </main>
     <script type="module" src="/src/main.js"></script>
   </body>
